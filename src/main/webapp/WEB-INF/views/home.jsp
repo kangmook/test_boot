@@ -13,6 +13,8 @@
     <br />
     이미지는 이렇게??? <br />
     <img src="/static/img/submarine.png" />
+    <br />
+    <h3>안녕하세요 강성묵 입니다. 일은 하기 싫구요 그냥 놀고 싶습니다.</h3>
 </body>
 
 </html>
