@@ -16,5 +16,5 @@ public class IndexController {
 		model.addAttribute("name", "sungmook kang");
         return "home";
 	}
-
+	
 }
