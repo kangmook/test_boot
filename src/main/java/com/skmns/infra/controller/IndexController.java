@@ -71,6 +71,24 @@ public class IndexController {
 		return rtnParam;
 	}
 
+	public int calculatePrice(int originPrice, boolean isVip, boolean isNewCustomer) {
+        double discountedPrice = originPrice;
+
+        if (isVip = true) {
+            discountedPrice = originPrice * 0.9;
+        }
+
+        if (isNewCustomer) {
+            discountedPrice = discountedPrice * 0.95;
+        }
+
+        if (discountedPrice <= 5000) {
+            discountedPrice = 5000;
+        }
+
+        return (int) discountedPrice;
+    }
+
 	
 		
 	
